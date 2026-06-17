@@ -1,0 +1,174 @@
+{
+  "source_zip": "praticita-site-contato-footer-melhorado.zip",
+  "original_zip_mb": 50.67,
+  "removed_unused_assets_count": 18,
+  "removed_unused_assets": [
+    {
+      "file": "card-bolo-personalizado.png",
+      "size_kb": 1995.0
+    },
+    {
+      "file": "card-red-velvet.png",
+      "size_kb": 2164.5
+    },
+    {
+      "file": "card-torta-morango.png",
+      "size_kb": 1923.5
+    },
+    {
+      "file": "card-brownie.png",
+      "size_kb": 2003.2
+    },
+    {
+      "file": "card-coxinha.png",
+      "size_kb": 2012.5
+    },
+    {
+      "file": "card-mini-hamburguer.png",
+      "size_kb": 2012.1
+    },
+    {
+      "file": "card-coffee-break.png",
+      "size_kb": 2222.9
+    },
+    {
+      "file": "section-artesanal.png",
+      "size_kb": 2035.4
+    },
+    {
+      "file": "cat-bolos.png",
+      "size_kb": 1927.3
+    },
+    {
+      "file": "cat-sobremesas.png",
+      "size_kb": 2031.5
+    },
+    {
+      "file": "cat-salgados.png",
+      "size_kb": 2133.8
+    },
+    {
+      "file": "cat-coffee-break.png",
+      "size_kb": 2210.5
+    },
+    {
+      "file": "cat-congelados.png",
+      "size_kb": 2412.1
+    },
+    {
+      "file": "insta-1.png",
+      "size_kb": 1723.8
+    },
+    {
+      "file": "insta-2.png",
+      "size_kb": 1971.4
+    },
+    {
+      "file": "insta-3.png",
+      "size_kb": 2136.9
+    },
+    {
+      "file": "insta-4.png",
+      "size_kb": 2047.9
+    },
+    {
+      "file": "insta-5.png",
+      "size_kb": 2000.1
+    }
+  ],
+  "optimized_count": 9,
+  "optimized": [
+    {
+      "file": "logo-praticita.png",
+      "before_kb": 381.1,
+      "after_kb": 344.1,
+      "method": "PNG otimizado/preservado"
+    },
+    {
+      "file": "hero-banner.png → hero-banner.webp",
+      "before_kb": 2205.8,
+      "after_kb": 171.3,
+      "method": "WebP q84, max 1920px"
+    },
+    {
+      "file": "dani.jpg → dani.webp",
+      "before_kb": 141.0,
+      "after_kb": 46.8,
+      "method": "WebP q84, max 1300px"
+    },
+    {
+      "file": "cleusa.jpg → cleusa.webp",
+      "before_kb": 119.6,
+      "after_kb": 34.8,
+      "method": "WebP q84, max 1300px"
+    },
+    {
+      "file": "bolo-red-velvt-recheado.png → bolo-red-velvt-recheado.webp",
+      "before_kb": 3142.3,
+      "after_kb": 123.8,
+      "method": "WebP q84, max 900px"
+    },
+    {
+      "file": "torta-red-velvt.png → torta-red-velvt.webp",
+      "before_kb": 2938.1,
+      "after_kb": 90.9,
+      "method": "WebP q84, max 900px"
+    },
+    {
+      "file": "torta-de-morango.png → torta-de-morango.webp",
+      "before_kb": 2928.9,
+      "after_kb": 96.0,
+      "method": "WebP q84, max 900px"
+    },
+    {
+      "file": "bolo-red-velvt.png → bolo-red-velvt.webp",
+      "before_kb": 3141.8,
+      "after_kb": 128.5,
+      "method": "WebP q84, max 900px"
+    },
+    {
+      "file": "socias.jpg → socias.webp",
+      "before_kb": 167.8,
+      "after_kb": 104.8,
+      "method": "WebP q84, max 1300px"
+    }
+  ],
+  "remaining_assets": [
+    {
+      "file": "bolo-red-velvt-recheado.webp",
+      "size_kb": 123.8
+    },
+    {
+      "file": "bolo-red-velvt.webp",
+      "size_kb": 128.5
+    },
+    {
+      "file": "cleusa.webp",
+      "size_kb": 34.8
+    },
+    {
+      "file": "dani.webp",
+      "size_kb": 46.8
+    },
+    {
+      "file": "hero-banner.webp",
+      "size_kb": 171.3
+    },
+    {
+      "file": "logo-praticita.png",
+      "size_kb": 344.1
+    },
+    {
+      "file": "socias.webp",
+      "size_kb": 104.8
+    },
+    {
+      "file": "torta-de-morango.webp",
+      "size_kb": 96.0
+    },
+    {
+      "file": "torta-red-velvt.webp",
+      "size_kb": 90.9
+    }
+  ]
+}
