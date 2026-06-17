@@ -49,3 +49,16 @@ Abra o `index.html` no navegador ou suba a pasta inteira em uma hospedagem está
 - Links de WhatsApp padronizados para: https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda.
 - Link de Instagram padronizado para: https://www.instagram.com/praticita.docesesalgados/
 - Footer revisado com navegação e CTAs funcionais.
+
+## Carrinho de pedidos
+- Botões "Adicionar ao carrinho" adicionados nos destaques da home e nos itens de `cardapio.html`.
+- Carrinho persistido em `localStorage` na chave `praticita_cart`.
+- Botão "Ver carrinho" abre painel lateral à direita.
+- Painel permite aumentar/diminuir quantidade, remover itens, limpar carrinho e finalizar pedido.
+- Finalização monta mensagem completa e abre WhatsApp com o pedido pronto.
+
+## Correção de cards e variações
+- Cards da tela inicial reconstruídos para corrigir quebra de layout.
+- Produtos com mais de uma variação agora exibem seletor de tamanho/opção.
+- O botão de adicionar ao carrinho exige seleção de variação antes de adicionar.
+- A opção selecionada entra no carrinho e na mensagem final do WhatsApp.
