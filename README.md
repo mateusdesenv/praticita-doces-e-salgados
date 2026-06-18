@@ -33,7 +33,7 @@ Abra o `index.html` no navegador ou suba a pasta inteira em uma hospedagem está
 
 ## Atualização de conteúdo
 - Seção 'Nossos produtos' removida.
-- Sessões 'Sobre a Dani' e 'Sobre a Cleusa' adicionadas com fotos fornecidas pelo cliente.
+- Sessões 'Sobre a Dani' e 'Sobre a Cleu' adicionadas com fotos fornecidas pelo cliente.
 
 ## Atualização de destaques e cardápio
 - Destaques agora usam apenas imagens reais enviadas pelo cliente.
@@ -47,7 +47,7 @@ Abra o `index.html` no navegador ou suba a pasta inteira em uma hospedagem está
 ## Atualização de contato e footer
 - Seção de contato redesenhada.
 - Links de WhatsApp padronizados para: https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda.
-- Link de Instagram padronizado para: https://www.instagram.com/praticita.docesesalgados/
+- Link de Instagram padronizado para: https://www.instagram.com/praticita_doces_e_salgados/
 - Footer revisado com navegação e CTAs funcionais.
 
 ## Carrinho de pedidos

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,11 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="site-header" id="inicio">
     <div class="topbar">
       <span>Encomendas artesanais para festas, empresas e rotina</span>
-      <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">WhatsApp: (49) 9991-6511</a>
+      <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+        target="_blank" rel="noopener">WhatsApp: (49) 9991-6511</a>
     </div>
 
     <nav class="nav">
@@ -27,9 +30,9 @@
       <div class="menu" id="menu">
         <a href="#inicio">Início</a>
         <a href="#destaques">Destaques</a>
-        <a href="#dani">Dani</a>
         <a href="#sobre">Sobre nós</a>
-        <a href="#cleusa">Cleusa</a>
+        <a href="#cleu">Cleu</a>
+        <a href="#dani">Dani</a>
         <a href="#contato">Contato</a>
       </div>
 
@@ -37,11 +40,6 @@
       <button class="cart-open-button" type="button" data-cart-open aria-label="Ver carrinho">
         Ver carrinho <span data-cart-count>0</span>
       </button>
-
-      <div class="nav-icons" aria-label="Ações rápidas">
-        <a href="#destaques" aria-label="Ver destaques">⌕</a>
-        <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener" aria-label="WhatsApp">☏</a>
-      </div>
     </nav>
   </header>
 
@@ -53,46 +51,52 @@
         <h1>Feito com carinho,<br>para momentos <span>inesquecíveis.</span></h1>
         <p>Doces e salgados sob encomenda com praticidade, qualidade e aconchego.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Faça sua encomenda</a>
+          <a class="btn btn-primary"
+            href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+            target="_blank" rel="noopener">Faça sua encomenda</a>
           <a class="btn btn-light" href="cardapio.html">Ver cardápio</a>
         </div>
       </div>
     </section>
 
-    
-    
+
+
     <section class="section favorites" id="destaques">
       <div class="section-title highlights-title">
         <div>
           <span class="ornament">◇</span>
           <h2>Nossos destaques</h2>
-          <p>Produtos com imagens reais da Praticità. Para ver o cardápio completo, acesse a lista com todos os itens, variações e valores cadastrados.</p>
+          <p>Produtos com imagens reais da Praticità. Para ver o cardápio completo, acesse a lista com todos os itens,
+            variações e valores cadastrados.</p>
         </div>
         <a class="btn btn-primary btn-see-more" href="cardapio.html">Ver mais</a>
       </div>
 
       <div class="product-row real-products-row">
-        
+
         <article class="product-card real-product-card fixed-highlight-card">
           <img src="assets/bolo-red-velvt-recheado.webp" alt="Bolo Red Velvet Recheado" />
           <div>
             <h3>Bolo Red Velvet Recheado</h3>
             <p>Imagem real do cliente</p>
             <strong>a partir de R$ 150,00</strong>
-            
+
             <label class="variation-field">
               <span>Tamanho/opção</span>
               <select class="product-variation-select compact-variation-select" data-variation-select>
-                <option value="">Selecione o tamanho/opção</option><option value="P · 20 cm · 2,5 kg · 15 fatias" data-price="R$ 150,00">P · 20 cm · 2,5 kg · 15 fatias — R$ 150,00</option><option value="M · 25 cm · 3,5 kg · 30 fatias" data-price="R$ 195,00">M · 25 cm · 3,5 kg · 30 fatias — R$ 195,00</option><option value="G · 30 cm · 4,5 kg · 40 fatias" data-price="R$ 240,00">G · 30 cm · 4,5 kg · 40 fatias — R$ 240,00</option>
+                <option value="">Selecione o tamanho/opção</option>
+                <option value="P · 20 cm · 2,5 kg · 15 fatias" data-price="R$ 150,00">P · 20 cm · 2,5 kg · 15 fatias —
+                  R$ 150,00</option>
+                <option value="M · 25 cm · 3,5 kg · 30 fatias" data-price="R$ 195,00">M · 25 cm · 3,5 kg · 30 fatias —
+                  R$ 195,00</option>
+                <option value="G · 30 cm · 4,5 kg · 40 fatias" data-price="R$ 240,00">G · 30 cm · 4,5 kg · 40 fatias —
+                  R$ 240,00</option>
               </select>
             </label>
-            <button class="add-to-cart" type="button"
-              data-id="bolo-red-velvet-recheado"
-              data-product-id="prod-bolo-red-velvet"
-              data-name="Bolo Red Velvet Recheado"
-              data-price="a partir de R$ 150,00"
-              data-source="Destaques"
-              data-requires-variation="true">Selecionar e adicionar</button>
+            <button class="add-to-cart" type="button" data-id="bolo-red-velvet-recheado"
+              data-product-id="prod-bolo-red-velvet" data-name="Bolo Red Velvet Recheado"
+              data-price="a partir de R$ 150,00" data-source="Destaques" data-requires-variation="true">Selecionar e
+              adicionar</button>
           </div>
         </article>
 
@@ -102,13 +106,9 @@
             <h3>Torta Red Velvet</h3>
             <p>Imagem real do cliente</p>
             <strong>R$ 85,00</strong>
-            
-            <button class="add-to-cart" type="button"
-              data-id="torta-red-velvet"
-              data-product-id="prod-torta-red-velvet"
-              data-name="Torta Red Velvet"
-              data-price="R$ 85,00"
-              data-source="Destaques"
+
+            <button class="add-to-cart" type="button" data-id="torta-red-velvet" data-product-id="prod-torta-red-velvet"
+              data-name="Torta Red Velvet" data-price="R$ 85,00" data-source="Destaques"
               data-requires-variation="false">Adicionar ao carrinho</button>
           </div>
         </article>
@@ -119,13 +119,9 @@
             <h3>Torta de Morango</h3>
             <p>Imagem real do cliente</p>
             <strong>R$ 90,00</strong>
-            
-            <button class="add-to-cart" type="button"
-              data-id="torta-de-morango"
-              data-product-id="prod-torta-morango"
-              data-name="Torta de Morango"
-              data-price="R$ 90,00"
-              data-source="Destaques"
+
+            <button class="add-to-cart" type="button" data-id="torta-de-morango" data-product-id="prod-torta-morango"
+              data-name="Torta de Morango" data-price="R$ 90,00" data-source="Destaques"
               data-requires-variation="false">Adicionar ao carrinho</button>
           </div>
         </article>
@@ -136,19 +132,21 @@
             <h3>Bolo Red Velvet</h3>
             <p>Imagem real do cliente</p>
             <strong>a partir de R$ 150,00</strong>
-            
+
             <label class="variation-field">
               <span>Tamanho/opção</span>
               <select class="product-variation-select compact-variation-select" data-variation-select>
-                <option value="">Selecione o tamanho/opção</option><option value="P · 20 cm · 2,5 kg · 15 fatias" data-price="R$ 150,00">P · 20 cm · 2,5 kg · 15 fatias — R$ 150,00</option><option value="M · 25 cm · 3,5 kg · 30 fatias" data-price="R$ 195,00">M · 25 cm · 3,5 kg · 30 fatias — R$ 195,00</option><option value="G · 30 cm · 4,5 kg · 40 fatias" data-price="R$ 240,00">G · 30 cm · 4,5 kg · 40 fatias — R$ 240,00</option>
+                <option value="">Selecione o tamanho/opção</option>
+                <option value="P · 20 cm · 2,5 kg · 15 fatias" data-price="R$ 150,00">P · 20 cm · 2,5 kg · 15 fatias —
+                  R$ 150,00</option>
+                <option value="M · 25 cm · 3,5 kg · 30 fatias" data-price="R$ 195,00">M · 25 cm · 3,5 kg · 30 fatias —
+                  R$ 195,00</option>
+                <option value="G · 30 cm · 4,5 kg · 40 fatias" data-price="R$ 240,00">G · 30 cm · 4,5 kg · 40 fatias —
+                  R$ 240,00</option>
               </select>
             </label>
-            <button class="add-to-cart" type="button"
-              data-id="bolo-red-velvet"
-              data-product-id="prod-bolo-red-velvet"
-              data-name="Bolo Red Velvet"
-              data-price="a partir de R$ 150,00"
-              data-source="Destaques"
+            <button class="add-to-cart" type="button" data-id="bolo-red-velvet" data-product-id="prod-bolo-red-velvet"
+              data-name="Bolo Red Velvet" data-price="a partir de R$ 150,00" data-source="Destaques"
               data-requires-variation="true">Selecionar e adicionar</button>
           </div>
         </article>
@@ -167,8 +165,11 @@
         <span class="mini-logo">◇</span>
         <p class="kicker">Feito à mão. Pensado para você.</p>
         <h2>Confeitaria e alimentação artesanal com praticidade e sabor.</h2>
-        <p>Na Praticità, cada receita é feita com ingredientes selecionados, técnicas artesanais e muito carinho. Criamos doces e salgados sob encomenda para tornar seus momentos ainda mais especiais.</p>
-        <a class="btn btn-primary" href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Conheça nossa história</a>
+        <p>Na Praticità, cada receita é feita com ingredientes selecionados, técnicas artesanais e muito carinho.
+          Criamos doces e salgados sob encomenda para tornar seus momentos ainda mais especiais.</p>
+        <a class="btn btn-primary"
+          href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+          target="_blank" rel="noopener">Conheça nossa história</a>
       </div>
 
       <div class="feature-grid">
@@ -179,51 +180,69 @@
       </div>
     </section>
 
-    
-    <section class="section team-section" id="dani">
+
+    <section class="section team-section">
       <div class="section-title compact">
         <span class="ornament">◇</span>
         <h2>Quem faz a Praticità</h2>
         <p>Conheça as pessoas por trás dos sabores, do cuidado e da produção artesanal da Praticità.</p>
       </div>
 
-      <div class="team-card">
+
+      <div class="team-card reverse" id="cleu">
+        <div class="team-photo">
+          <img src="assets/cleu.webp" alt="Cleu, da Praticità" />
+        </div>
+        <div class="team-copy">
+          <p class="kicker">Sobre a Cleu</p>
+          <h3>Cleu — O coração da Praticità</h3>
+          <p>
+            Mãe de dois filhos e apaixonada pela cozinha desde sempre, Cleu encontrou na Praticità a oportunidade de
+            transformar seu talento e amor por cozinhar em propósito. Para ela, cozinhar sempre foi uma forma de
+            demonstrar carinho, cuidado e afeto.
+          </p>
+          <p>
+            Responsável pela produção da marca, é quem dá vida aos bolos, salgados, bolachas e receitas que encantam os
+            clientes. Com dedicação aos detalhes e um olhar cuidadoso, cria sabores que despertam memórias afetivas e
+            tornam cada momento ainda mais especial.
+          </p>
+        </div>
+      </div>
+      <div class="team-card" id="dani">
         <div class="team-photo">
           <img src="assets/dani.webp" alt="Dani, da Praticità" />
         </div>
         <div class="team-copy">
           <p class="kicker">Sobre a Dani</p>
-          <h3>Dani</h3>
-          <p>Dani faz parte do coração criativo da Praticità. Com energia, carinho e atenção aos detalhes, ela ajuda a transformar receitas em experiências que marcam aniversários, encontros e momentos especiais.</p>
-          <p>Seu olhar cuidadoso contribui para que cada doce e cada salgado cheguem com apresentação caprichada, sabor equilibrado e a identidade acolhedora da marca.</p>
-          <a class="btn btn-primary" href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Falar com a Praticità</a>
-        </div>
-      </div>
-
-      <div class="team-card reverse" id="cleusa">
-        <div class="team-photo">
-          <img src="assets/cleusa.webp" alt="Cleusa, da Praticità" />
-        </div>
-        <div class="team-copy">
-          <p class="kicker">Sobre a Cleusa</p>
-          <h3>Cleusa</h3>
-          <p>Cleusa representa a essência artesanal da Praticità: experiência, delicadeza e compromisso com a qualidade. Seu trabalho sustenta o padrão de sabor e o cuidado que tornam a marca reconhecida em encomendas doces e salgadas.</p>
-          <p>É essa combinação de técnica, afeto e consistência que faz a Praticità entregar não apenas produtos, mas uma sensação de aconchego em cada pedido.</p>
-          <a class="btn btn-light" href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Solicitar orçamento</a>
+          <h3>Dani — A criatividade que conecta sabores e histórias</h3>
+          <p>
+            Formada em Contabilidade e com experiência no mercado financeiro e cooperativo, Dani decidiu seguir o que
+            sempre esteve presente em sua vida: a paixão pela cozinha. Na Praticità, encontrou a oportunidade de unir
+            criatividade, estratégia e amor pela gastronomia.
+          </p>
+          <p>
+            Hoje, divide seu tempo entre a produção, onde também coloca a mão na massa, e o comercial da empresa,
+            levando a essência da marca para cada cliente. Para ela, cada receita vai além do sabor: é uma forma de
+            criar memórias, fortalecer laços e transformar momentos simples em ocasiões especiais.
+          </p>
         </div>
       </div>
     </section>
 
 
-    
+
     <section class="contact-section" id="contato">
       <div class="contact-card contact-main">
         <p class="kicker">Contato e encomendas</p>
         <h2>Faça sua encomenda direto pelo WhatsApp.</h2>
-        <p>Atendimento para bolos, sobremesas, salgados, coffee break e produtos sob orçamento. Envie sua ideia, data do evento, quantidade estimada e local para retirada ou entrega.</p>
+        <p>Atendimento para bolos, sobremesas, salgados, coffee break e produtos sob orçamento. Envie sua ideia, data do
+          evento, quantidade estimada e local para retirada ou entrega.</p>
         <div class="contact-actions">
-          <a class="btn btn-primary" href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Chamar no WhatsApp</a>
-          <a class="btn btn-light" href="https://www.instagram.com/praticita.docesesalgados/" target="_blank" rel="noopener">Ver Instagram</a>
+          <a class="btn btn-primary"
+            href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+            target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn btn-light" href="https://www.instagram.com/praticita_doces_e_salgados/" target="_blank"
+            rel="noopener">Ver Instagram</a>
         </div>
       </div>
 
@@ -233,28 +252,34 @@
           <li><strong>Endereço</strong><span>Rua Bulcão Viana, nº 1358 — Floresta</span></li>
           <li><strong>Entrega</strong><span>Sob consulta de taxa</span></li>
           <li><strong>Retirada</strong><span>No endereço da Praticità</span></li>
-          <li><strong>WhatsApp</strong><a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">(49) 9991-6511</a></li>
-          <li><strong>Instagram</strong><a href="https://www.instagram.com/praticita.docesesalgados/" target="_blank" rel="noopener">@praticita.docesesalgados</a></li>
+          <li><strong>WhatsApp</strong><a
+              href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+              target="_blank" rel="noopener">(49) 9991-6511</a></li>
+          <li><strong>Instagram</strong><a href="https://www.instagram.com/praticita_doces_e_salgados/" target="_blank"
+              rel="noopener">@praticita_doces_e_salgados</a></li>
         </ul>
       </div>
 
       <div class="contact-card contact-quote">
         <p>Sua ocasião,<br>nosso cuidado.</p>
         <span>Seu momento, mais saboroso.</span>
-        <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener" aria-label="Falar com a Praticità no WhatsApp">♡</a>
+        <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+          target="_blank" rel="noopener" aria-label="Falar com a Praticità no WhatsApp">♡</a>
       </div>
     </section>
 
   </main>
 
-  
+
   <footer class="footer">
     <div>
       <img src="assets/logo-praticita.png" alt="Praticità Doces e Salgados" />
       <p>Doces, salgados e encomendas artesanais com praticidade, qualidade e aconchego.</p>
       <div class="footer-social">
-        <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener" aria-label="WhatsApp da Praticità">WhatsApp</a>
-        <a href="https://www.instagram.com/praticita.docesesalgados/" target="_blank" rel="noopener" aria-label="Instagram da Praticità">Instagram</a>
+        <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+          target="_blank" rel="noopener" aria-label="WhatsApp da Praticità">WhatsApp</a>
+        <a href="https://www.instagram.com/praticita_doces_e_salgados/" target="_blank" rel="noopener"
+          aria-label="Instagram da Praticità">Instagram</a>
       </div>
     </div>
 
@@ -263,15 +288,17 @@
       <a href="index.html#inicio">Início</a>
       <a href="index.html#destaques">Destaques</a>
       <a href="cardapio.html">Cardápio</a>
+      <a href="index.html#cleu">Cleu</a>
       <a href="index.html#dani">Dani</a>
-      <a href="index.html#cleusa">Cleusa</a>
       <a href="index.html#contato">Contato</a>
     </div>
 
     <div>
       <h3>Contato</h3>
-      <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">(49) 9991-6511</a>
-      <a href="https://www.instagram.com/praticita.docesesalgados/" target="_blank" rel="noopener">@praticita.docesesalgados</a>
+      <a href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+        target="_blank" rel="noopener">(49) 9991-6511</a>
+      <a href="https://www.instagram.com/praticita_doces_e_salgados/" target="_blank"
+        rel="noopener">@praticita_doces_e_salgados</a>
       <p>Rua Bulcão Viana, nº 1358 — Floresta</p>
     </div>
 
@@ -279,7 +306,9 @@
       <h3>Pedidos</h3>
       <p>Pedidos personalizados pelo WhatsApp.</p>
       <p>Entregas sob consulta de taxa.</p>
-      <a class="footer-cta" href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Solicitar orçamento</a>
+      <a class="footer-cta"
+        href="https://wa.me/554999916511?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Praticit%C3%A0%20e%20quero%20fazer%20uma%20encomenda."
+        target="_blank" rel="noopener">Solicitar orçamento</a>
     </div>
   </footer>
 
@@ -315,4 +344,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
