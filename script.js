@@ -92,15 +92,16 @@ document.addEventListener('click', (event) => {
   let searchTerm = '';
 
   function resolveApiBaseUrl() {
-    const configured = String(window.PRATICITA_API_BASE_URL || '').trim();
-    if (configured) return configured.replace(/\/+$/, '');
+    return 'https://praticita-api.vercel.app/api';
+    // const configured = String(window.PRATICITA_API_BASE_URL || '').trim();
+    // if (configured) return configured.replace(/\/+$/, '');
 
-    const isLocal = ['localhost', '127.0.0.1', '0.0.0.0', ''].includes(window.location.hostname);
-    if (isLocal || window.location.protocol === 'file:') {
-      return 'https://praticita-api.vercel.app/api';
-    }
+    // const isLocal = ['localhost', '127.0.0.1', '0.0.0.0', ''].includes(window.location.hostname);
+    // if (isLocal || window.location.protocol === 'file:') {
+    //   return 'https://praticita-api.vercel.app/api';
+    // }
 
-    return `${window.location.origin.replace(/\/+$/, '')}/api`;
+    // return `${window.location.origin.replace(/\/+$/, '')}/api`;
   }
 
   function buildUrl(path) {
