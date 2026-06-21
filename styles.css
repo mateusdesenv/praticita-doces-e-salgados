@@ -1553,3 +1553,154 @@ a { color: inherit; text-decoration: none; }
     width: 100%;
   }
 }
+
+/* Integração dinâmica do cardápio via API */
+.menu-loading-pill {
+  display: inline-flex;
+  min-height: 34px;
+  padding: 0 13px;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fffaf6;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.menu-search-panel {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 22px 0 4px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fffaf6;
+  box-shadow: 0 12px 30px rgba(62, 24, 17, 0.05);
+}
+
+.menu-search-field {
+  flex: 1;
+  display: grid;
+  gap: 8px;
+}
+
+.menu-search-field span {
+  color: var(--brown);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.menu-search-field input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--cream);
+  color: var(--brown);
+  font: inherit;
+  outline: none;
+}
+
+.menu-search-field input:focus {
+  border-color: rgba(116, 67, 46, 0.55);
+  box-shadow: 0 0 0 4px rgba(116, 67, 46, 0.09);
+}
+
+.menu-search-panel p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.menu-feedback {
+  margin: 18px 0;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fffaf6;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.menu-feedback[data-state="error"] {
+  border-color: rgba(143, 50, 34, 0.34);
+  background: #fff2ed;
+  color: #7d2c20;
+}
+
+.menu-option-group {
+  display: grid;
+  gap: 4px;
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--cream);
+}
+
+.menu-option-group strong {
+  color: var(--brown);
+  font-size: 0.78rem;
+}
+
+.menu-option-group span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.menu-empty-state {
+  margin: 28px 0 64px;
+  padding: 38px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: #fffaf6;
+  text-align: center;
+}
+
+.menu-empty-state h2 {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  color: var(--brown);
+}
+
+.menu-empty-state p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.product-card-placeholder {
+  display: grid;
+  min-height: 220px;
+  align-items: center;
+}
+
+.product-card-placeholder div {
+  min-height: auto;
+}
+
+.add-to-cart:disabled,
+.menu-add-to-cart:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+@media (max-width: 760px) {
+  .menu-search-panel {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .menu-search-panel p {
+    white-space: normal;
+  }
+}
