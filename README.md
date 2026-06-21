@@ -62,3 +62,18 @@ Abra o `index.html` no navegador ou suba a pasta inteira em uma hospedagem está
 - Produtos com mais de uma variação agora exibem seletor de tamanho/opção.
 - O botão de adicionar ao carrinho exige seleção de variação antes de adicionar.
 - A opção selecionada entra no carrinho e na mensagem final do WhatsApp.
+
+## Integração com a API do cardápio
+- `cardapio.html` não mantém mais a lista de itens hardcoded. A página busca os dados em `GET /api/menu-data` e renderiza categorias, produtos, variações, opções, disponibilidade e preços em tempo de execução.
+- A seção `Nossos destaques` da home também usa a API para preços, nomes e variações, mantendo as imagens reais já existentes no site.
+- A página de cardápio ganhou busca client-side sobre produtos, categorias, descrições, variações e opções.
+- Configure a URL da API no arquivo `config.js`:
+
+```js
+window.PRATICITA_API_BASE_URL = "https://sua-api.vercel.app/api";
+```
+
+- Se `config.js` ficar vazio:
+  - em `localhost`, o frontend tenta `http://localhost:3000/api`;
+  - em produção, o frontend tenta `/api` no mesmo domínio do site.
+- Para frontend e API em domínios diferentes, libere o domínio do site na variável `CORS_ORIGIN` da API.

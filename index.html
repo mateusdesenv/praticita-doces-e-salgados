@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HML Praticità | Doces e Salgados Artesanais</title>
+  <title>Praticità | Doces e Salgados Artesanais</title>
   <meta name="description" content="Praticità Doces e Salgados: confeitaria e alimentação artesanal sob encomenda." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,85 +72,13 @@
         <a class="btn btn-primary btn-see-more" href="cardapio.html">Ver mais</a>
       </div>
 
-      <div class="product-row real-products-row">
-
-        <article class="product-card real-product-card fixed-highlight-card">
-          <img src="assets/bolo-red-velvt-recheado.webp" alt="Bolo Red Velvet Recheado" />
+      <div class="product-row real-products-row" data-featured-products>
+        <article class="product-card real-product-card fixed-highlight-card product-card-placeholder">
           <div>
-            <h3>Bolo Red Velvet Recheado</h3>
-            <p>Imagem real do cliente</p>
-            <strong>a partir de R$ 150,00</strong>
-
-            <label class="variation-field">
-              <span>Tamanho/opção</span>
-              <select class="product-variation-select compact-variation-select" data-variation-select>
-                <option value="">Selecione o tamanho/opção</option>
-                <option value="P · 20 cm · 2,5 kg · 15 fatias" data-price="R$ 150,00">P · 20 cm · 2,5 kg · 15 fatias —
-                  R$ 150,00</option>
-                <option value="M · 25 cm · 3,5 kg · 30 fatias" data-price="R$ 195,00">M · 25 cm · 3,5 kg · 30 fatias —
-                  R$ 195,00</option>
-                <option value="G · 30 cm · 4,5 kg · 40 fatias" data-price="R$ 240,00">G · 30 cm · 4,5 kg · 40 fatias —
-                  R$ 240,00</option>
-              </select>
-            </label>
-            <button class="add-to-cart" type="button" data-id="bolo-red-velvet-recheado"
-              data-product-id="prod-bolo-red-velvet" data-name="Bolo Red Velvet Recheado"
-              data-price="a partir de R$ 150,00" data-source="Destaques" data-requires-variation="true">Selecionar e
-              adicionar</button>
+            <h3>Carregando destaques...</h3>
+            <p>Buscando itens cadastrados na API.</p>
           </div>
         </article>
-
-        <article class="product-card real-product-card fixed-highlight-card">
-          <img src="assets/torta-red-velvt.webp" alt="Torta Red Velvet" />
-          <div>
-            <h3>Torta Red Velvet</h3>
-            <p>Imagem real do cliente</p>
-            <strong>R$ 85,00</strong>
-
-            <button class="add-to-cart" type="button" data-id="torta-red-velvet" data-product-id="prod-torta-red-velvet"
-              data-name="Torta Red Velvet" data-price="R$ 85,00" data-source="Destaques"
-              data-requires-variation="false">Adicionar ao carrinho</button>
-          </div>
-        </article>
-
-        <article class="product-card real-product-card fixed-highlight-card">
-          <img src="assets/torta-de-morango.webp" alt="Torta de Morango" />
-          <div>
-            <h3>Torta de Morango</h3>
-            <p>Imagem real do cliente</p>
-            <strong>R$ 90,00</strong>
-
-            <button class="add-to-cart" type="button" data-id="torta-de-morango" data-product-id="prod-torta-morango"
-              data-name="Torta de Morango" data-price="R$ 90,00" data-source="Destaques"
-              data-requires-variation="false">Adicionar ao carrinho</button>
-          </div>
-        </article>
-
-        <article class="product-card real-product-card fixed-highlight-card">
-          <img src="assets/bolo-red-velvt.webp" alt="Bolo Red Velvet" />
-          <div>
-            <h3>Bolo Red Velvet</h3>
-            <p>Imagem real do cliente</p>
-            <strong>a partir de R$ 150,00</strong>
-
-            <label class="variation-field">
-              <span>Tamanho/opção</span>
-              <select class="product-variation-select compact-variation-select" data-variation-select>
-                <option value="">Selecione o tamanho/opção</option>
-                <option value="P · 20 cm · 2,5 kg · 15 fatias" data-price="R$ 150,00">P · 20 cm · 2,5 kg · 15 fatias —
-                  R$ 150,00</option>
-                <option value="M · 25 cm · 3,5 kg · 30 fatias" data-price="R$ 195,00">M · 25 cm · 3,5 kg · 30 fatias —
-                  R$ 195,00</option>
-                <option value="G · 30 cm · 4,5 kg · 40 fatias" data-price="R$ 240,00">G · 30 cm · 4,5 kg · 40 fatias —
-                  R$ 240,00</option>
-              </select>
-            </label>
-            <button class="add-to-cart" type="button" data-id="bolo-red-velvet" data-product-id="prod-bolo-red-velvet"
-              data-name="Bolo Red Velvet" data-price="a partir de R$ 150,00" data-source="Destaques"
-              data-requires-variation="true">Selecionar e adicionar</button>
-          </div>
-        </article>
-
       </div>
     </section>
 
@@ -342,6 +270,7 @@
     </div>
   </aside>
 
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 
